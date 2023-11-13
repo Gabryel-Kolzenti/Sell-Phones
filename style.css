@@ -1,0 +1,178 @@
+@charset "utf-8"; /* Define quais caracteres poderão ser utilizados dentro do site */
+
+/*font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #2B2B2B;
+  display: flex;
+  position: fixed;
+  width: 100vw;
+  justify-content: space-around;
+}
+
+header img {
+  width: 8%;
+  filter: invert(100%);
+}
+
+h2 {
+  font-size: 2.2em;
+  font-family: 'Rubik', sans-serif;
+}
+
+header h2 {
+  padding-left: 2%;
+  color: #ECECEC;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+}
+
+.alignEnd {
+  justify-content: flex-end;
+  gap: 30%;
+}
+
+.alignEnd img {
+  width: 100%;
+  height: 50px;
+  cursor: pointer;
+}
+
+main {
+  background-color: #131313;
+  padding: 10% 10% 0% 10%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 6%;
+  color: white;
+  font-family: 'Rubik', sans-serif;
+}
+
+main a {
+  text-decoration: none;
+  color: white;
+  background-color: #1562F0;
+  padding: 1% 10%;
+  font-size: 2.8em;
+  border-radius: 25px;
+  font-weight: bold;
+  flex-wrap: nowrap;
+}
+
+main a:hover {
+  background-color: rgb(0, 153, 255);
+  color: #ffffff;
+  transition: .15s;
+}
+
+main img {
+  padding-top: 15%;
+  margin-left: 5%;
+  width: 100%;
+}
+
+.section1,
+.section2,
+.section3,
+.section4 {
+  padding: 4% 10% 4% 10%;
+}
+
+.section1 h2 {
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.cell {
+  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+}
+
+.cell img {
+  width: 50%;
+  height: 50%;
+  margin-bottom: 2%;
+}
+
+.cell .align h2{
+  color: #131313;
+}
+
+.valores {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  margin-top: -5%;
+  margin-bottom: 7%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h3 {
+  font-size: 2.1em;
+}
+
+.section1 h2 {
+  color: #1562F0;
+  font-family: 'Rubik', sans-serif;
+}
+
+.valores p {
+  font-size: 1.2em;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #1562F0;
+  color: white;
+  font-size: 2em;
+  padding: 2% 8%;
+  border-radius: 10px;
+}
+
+.btn:hover{
+  background-color: #131313;
+  color: #ffffff;
+  transition: .15s;
+}
+
+.section2 {
+  background-color: #131313;
+}
+
+.section2 h2 {
+  color: #ECECEC;
+  text-align: center;
+}
+
+.section2 div {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  text-align: center;
+  padding: 0.3%;
+  background-color: #2B2B2B;
+}
+
+footer p {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: white;
+}
